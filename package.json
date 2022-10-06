@@ -1,17 +1,17 @@
 {
-  "name": "operations",
-  "version": "1.0.0",
-  "description": "operations of cirsa", 
+  "name": "@camilovista2010/js-operaciones",
+  "version": "1.0.2",
+  "description": "operations of cirsa",
   "main": "lib/operations.js",
   "engines": {
     "node": ">=16.17.1"
   },
   "scripts": {
     "test": "jest"
-  }, 
+  },
   "publishConfig": {
     "access": "public",
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "github",
@@ -21,7 +21,9 @@
   "author": "cirsa interactive",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^29.1.2",
+    "jest": "^29.1.2"
+  },
+  "dependencies": {
     "lodash": "^4.17.21"
   }
 }
